@@ -7,28 +7,30 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/textQuotes"
-        android:layout_width="wrap_content"
+        android:id="@+id/txtQuotes"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="15dp"
         android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
         android:layout_marginRight="15dp"
-        android:textSize="18sp"
         android:text="Quotes"
+        android:textSize="18sp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvQuotes"
-        android:layout_width="370dp"
-        android:layout_height="660dp"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
         android:layout_marginLeft="15dp"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="5dp"
         android:layout_marginRight="15dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textQuotes">
+        app:layout_constraintTop_toBottomOf="@id/txtQuotes">
 
     </androidx.recyclerview.widget.RecyclerView>
 
